@@ -1,7 +1,7 @@
 {
   "name": "crimson-cricket",
   "version": "1.0.0",
-  "main": "server.ts",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.18.2",
     "axios": "^1.6.2",
@@ -9,7 +9,6 @@
     "cors": "^2.8.5"
   },
   "scripts": {
-    "start": "node server.ts",
-    "build": "echo 'No build needed'"
+    "start": "node server.js"
   }
 }
